@@ -18,7 +18,7 @@ async function greet() {
 
     <div class="flex">
       <div>
-        <h1>Minecraft Legacy Console Edition Installer</h1>
+        <h1>Install Minecraft Legacy Console Edition?</h1>
         <button class="app-btn app-btn-primary">
           <i class="icons10-fantasy"></i>
           <span>Primary Button</span>
@@ -27,6 +27,12 @@ async function greet() {
       <div>
         <img class="logo" src="/images/table.png" />
       </div>
+    </div>
+
+
+    <div class="flex">
+      <input class="app-checkbox" type="checkbox" value="" id="CheckBoxDefault" checked>
+      <label for="CheckBoxDefault">Install for all users</label>
     </div>
 
 
