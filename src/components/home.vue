@@ -1,5 +1,5 @@
 <template>
-  <main class="main">
+  <div>
 
 
 
@@ -34,7 +34,7 @@
 
 
 
-  </main>
+  </div>
 </template>
 
 <style scoped>
@@ -48,9 +48,6 @@
 .action-button {
   width: 15rem;
   margin-left: 1rem;
-}
-.flex {
-  display: flex;
 }
 .logo {
   width: 10rem;

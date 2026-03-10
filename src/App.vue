@@ -10,6 +10,9 @@
 .main {
   padding: 2rem;
 }
+.flex {
+  display: flex;
+}
 </style>
 
 <script setup>
