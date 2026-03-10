@@ -12,28 +12,42 @@ async function greet() {
 </script>
 
 <template>
-  <main class="container">
+  <main class="main">
 
 
 
-    <h1>Welcome to Tauri + Vue</h1>
+    <div class="flex">
+      <div>
+        <h1>Minecraft Legacy Console Edition Installer</h1>
+        <button class="app-btn app-btn-primary">
+          <i class="icons10-fantasy"></i>
+          <span>Primary Button</span>
+        </button>
+      </div>
+      <div>
+        <img class="logo" src="/images/table.png" />
+      </div>
+    </div>
 
-    <button class="app-btn app-btn-primary">
-  <i class="icons10-fantasy"></i>
-  <span>Primary Button</span>
-</button>
-<button class="app-btn" @click="toggle_theme()">
-  <span>Default Button</span>
-</button>
 
 
 
   </main>
 </template>
 
+<style scoped>
+.flex {
+  display: flex;
+}
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+</style>
+
 <style>
-* {
-  font-family: ;
+.main {
+  padding: 2rem;
 }
 </style>
 
